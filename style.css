@@ -18,7 +18,7 @@ body {
     display: grid;
     grid-template-rows: 100px 1fr;
     color: bisque;
-    background: url('/imagenes/retro_fondo.jpg') no-repeat center;
+    background: url('imagenes/retro_fondo.jpg') no-repeat center;
     background-size: cover;
     background-color: rgb(111, 66, 66);
 }
@@ -74,7 +74,7 @@ body {
     background-color: rgb(210, 210, 170);
 }
 .bg-fondo {
-    background-image: url('/imagenes/fondo_para_mi.jpg');
+    background-image: url('imagenes/fondo_para_mi.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -97,7 +97,7 @@ body {
     font-size: 70px;
 }
 .bg-fondo-hab {
-    background-image: url('/imagenes/fondo_habilidades.jpg');
+    background-image: url('imagenes/fondo_habilidades.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
@@ -105,7 +105,7 @@ body {
     padding-bottom: 150px;
 }
 .bg-imagen{
-    background-image: url('/imagenes/fondito_habilidades.jpg');
+    background-image: url('imagenes/fondito_habilidades.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -122,7 +122,7 @@ body {
     font-size: 22px;
 }
 .background-section {
-    background-image: url('/imagenes/fondogris.jpg');
+    background-image: url('imagenes/fondogris.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
