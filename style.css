@@ -18,9 +18,16 @@ body {
     display: grid;
     grid-template-rows: 100px 1fr;
     color: bisque;
-    background: url('/imagenes/retro_fondo.jpg') no-repeat center;
+    background: url('imagenes/retro_fondo.jpg') no-repeat center;
     background-size: cover;
     background-color: rgb(111, 66, 66);
+}
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #B06AB3;
+    padding-top: 20px;
 }
 .sticky {
     position: sticky;
@@ -74,7 +81,7 @@ body {
     background-color: rgb(210, 210, 170);
 }
 .bg-fondo {
-    background-image: url('/imagenes/fondo_para_mi.jpg');
+    background-image: url('imagenes/fondo_para_mi.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -97,7 +104,7 @@ body {
     font-size: 70px;
 }
 .bg-fondo-hab {
-    background-image: url('/imagenes/fondo_habilidades.jpg');
+    background-image: url('imagenes/fondo_habilidades.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
@@ -105,7 +112,7 @@ body {
     padding-bottom: 150px;
 }
 .bg-imagen{
-    background-image: url('/imagenes/fondito_habilidades.jpg');
+    background-image: url('imagenes/fondito_habilidades.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -122,7 +129,7 @@ body {
     font-size: 22px;
 }
 .background-section {
-    background-image: url('/imagenes/fondogris.jpg');
+    background-image: url('imagenes/fondogris.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
@@ -135,4 +142,25 @@ body {
 .text-contacto {
     color: aliceblue;
     padding-bottom: 100px;
+}
+
+.background-section_pr {
+    background-image: url('imagenes/fondo_portafolio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+#contactForm {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-contacto {
+    font-family: "Tiny5", sans-serif;
+    color:aliceblue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 70px;
 }
