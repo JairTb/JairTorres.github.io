@@ -143,20 +143,17 @@ body {
     color: aliceblue;
     padding-bottom: 100px;
 }
-
 .background-section_pr {
     background-image: url('imagenes/fondo_portafolio.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
 }
-
 #contactForm {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
 }
-
 .text-contacto {
     font-family: "Tiny5", sans-serif;
     color:aliceblue;
